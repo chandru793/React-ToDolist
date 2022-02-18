@@ -32,7 +32,14 @@
 .taskDiv{
   display: flex;
   flex-direction: row;
+  opacity: 1;
 }
+.taskCompleted{
+  display: flex;
+  flex-direction: row;
+  opacity: 0.5;
+}
+
 .taskP{
   padding: 5px;
   margin: 5px;
